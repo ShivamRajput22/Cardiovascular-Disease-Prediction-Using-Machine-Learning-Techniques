@@ -61,16 +61,20 @@ The dataset is derived from the UCI Cleveland Heart Disease dataset and has been
 
 ## 📊 Exploratory Data Analysis (EDA)
 
-A structured exploratory data analysis was conducted to assess feature distributions, inter-variable relationships, and clinical plausibility.
+A focused exploratory data analysis was conducted to assess class balance and basic demographic patterns within the dataset. The objective of this stage was to validate data suitability for supervised learning while maintaining clarity and clinical relevance. Detailed exploratory analysis is documented within the project notebook.
 
-Key observations included:
+### Target Variable Distribution
 
-- **ST-segment slope** demonstrated the strongest association with heart disease, with flat and downsloping patterns indicating very high risk.
-- **Chest pain type** exhibited a clear gradient, with asymptomatic and non-anginal cases associated with the highest disease prevalence.
-- **Resting blood pressure and serum cholesterol** were higher, on average, among patients with heart disease.
-- **Correlation analysis** revealed informative associations without evidence of problematic multicollinearity.
+The dataset shows a reasonably balanced distribution between patients with and without cardiovascular disease. This balance supports reliable model training and evaluation without severe class bias.
 
-These findings align closely with established cardiovascular literature and confirmed the suitability of the dataset for predictive modelling.
+![Target Variable Distribution](images/target_distribution.png)
+
+### Heart Disease Distribution by Gender
+
+The prevalence of cardiovascular disease is broadly comparable across male and female patients. This indicates that the dataset does not suffer from significant gender imbalance and supports fair model evaluation across demographic groups.
+
+![Heart Disease by Gender](images/heart_disease_by_gender.png)
+
 
 ---
 
