@@ -187,7 +187,7 @@ Model performance was evaluated using clinically meaningful and statistically ro
 
 The following visual compares classification accuracy across all evaluated models, highlighting the superior performance of ensemble and neural approaches.
 
-![Model Accuracy Comparison](results/performance_summary/model_accuracy_comparison.png)
+![Model Accuracy Comparison](images/model_accuracy_comparison.png)
 
 ---
 
@@ -195,7 +195,7 @@ The following visual compares classification accuracy across all evaluated model
 
 The confusion matrix below illustrates the classification performance of the **Random Forest model**, which achieved the highest overall accuracy. The low false-negative rate is particularly important in a clinical risk prediction context.
 
-![Random Forest Confusion Matrix](results/performance_summary/confusion_matrix_rf.png)
+![Random Forest Confusion Matrix](images/all_confusion_matrix_rf.png)
 
 ---
 
