@@ -203,7 +203,7 @@ The confusion matrix below illustrates the classification performance of the **R
 
 Receiver Operating Characteristic (ROC) curves demonstrate each model’s ability to discriminate between patients with and without cardiovascular disease across all decision thresholds.
 
-![ROC Curve Comparison](results/performance_summary/roc_curve_comparison.png)
+![ROC Curve Comparison](images/roc_curve_comparison.png)
 
 Random Forest and XGBoost exhibit near-perfect discrimination, confirming their suitability for structured clinical prediction tasks.
 
