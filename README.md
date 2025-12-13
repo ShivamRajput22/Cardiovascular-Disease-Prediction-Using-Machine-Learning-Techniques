@@ -111,79 +111,12 @@ The workflow consists of the following stages:
 9. **Prediction Output**  
    Final model outputs classify patients as **Heart Disease** or **No Heart Disease**, supporting clinical risk stratification.
 
-> 📌 A visual workflow diagram is included in the dissertation and reflected in the logical structure of the notebook implementation.
+### Visual Workflow Diagram
 
-Below is the resrach diagram workflwo can i chnage the location ?1
+The figure below provides a visual overview of the complete research workflow, from dataset acquisition through to model interpretation and final prediction.
 
+![Research Workflow Diagram](images/research_workflow.png)
 
-                   ┌────────────────────────────┐
-                   │    Dataset Acquisition     │
-                   │   (Kaggle Heart Disease)   │
-                   └──────────────┬─────────────┘
-                                  │
-                                  ▼
-                   ┌────────────────────────────┐
-                   │        Data Cleaning        │
-                   │ - Remove duplicates         │
-                   │ - Drop identifiers          │
-                   │ - Check missing values      │
-                   └──────────────┬─────────────┘
-                                  │
-                                  ▼
-                   ┌────────────────────────────┐
-                   │ Exploratory Data Analysis  │
-                   │ - Distributions            │
-                   │ - Correlations             │
-                   │ - Clinical patterns        │
-                   └──────────────┬─────────────┘
-                                  │
-                                  ▼
-                   ┌────────────────────────────┐
-                   │        Preprocessing        │
-                   │ - Encode categorical vars   │
-                   │ - Standardise features      │
-                   │ - Train-test split (80:20)  │
-                   └──────────────┬─────────────┘
-                                  │
-                                  ▼
-                   ┌────────────────────────────┐
-                   │      Model Development      │
-                   │ Logistic Regression         │
-                   │ Decision Tree               │
-                   │ Random Forest               │
-                   │ XGBoost                     │
-                   │ k-NN                        │
-                   │ MLP (Neural Network)        │
-                   └──────────────┬─────────────┘
-                                  │
-                                  ▼
-                   ┌────────────────────────────┐
-                   │   Hyperparameter Tuning     │
-                   │ GridSearchCV / RandomSearch │
-                   │ 5-fold cross-validation     │
-                   └──────────────┬─────────────┘
-                                  │
-                                  ▼
-                   ┌────────────────────────────┐
-                   │         Evaluation          │
-                   │ - Accuracy                  │
-                   │ - Precision, Recall         │
-                   │ - F1-score                  │
-                   │ - ROC-AUC                   │
-                   └──────────────┬─────────────┘
-                                  │
-                                  ▼
-                   ┌────────────────────────────┐
-                   │        Interpretability     │
-                   │ - Feature Importance        │
-                   │ - SHAP Values               │
-                   └──────────────┬─────────────┘
-                                  │
-                                  ▼
-                   ┌────────────────────────────┐
-                   │       Final Prediction      │
-                   │ Heart Disease / No Disease  │
-                   └────────────────────────────┘
 
 ## 🤖 Machine Learning Models & Hyperparameter Tuning
 
