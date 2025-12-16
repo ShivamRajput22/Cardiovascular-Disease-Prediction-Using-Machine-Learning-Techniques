@@ -222,7 +222,7 @@ These considerations are critical to ensuring that predictive analytics tools ca
 
 ## ▶️ Running the Entire Project
 
-### Google Colab (Recommended)
+### Google Colab
 
 The full implementation is available as an executable Google Colab notebook, allowing users to run the project without local setup.
 
