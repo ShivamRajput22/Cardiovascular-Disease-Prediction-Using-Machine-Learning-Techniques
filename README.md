@@ -177,9 +177,9 @@ Model performance was evaluated using clinically meaningful and statistically ro
 | **Random Forest** | **99.5%** | 98.3% | Strongest ensemble performance |
 | **XGBoost** | **99.5%** | 98.3% | High accuracy and stable generalisation |
 | **Multi-Layer Perceptron (MLP)** | 97.5% | **98.7%** | Most consistent across folds |
-| Logistic Regression | 98.5% | – | Strong, interpretable baseline |
-| Decision Tree | 96.5% | – | Transparent but prone to overfitting |
-| k-Nearest Neighbours | 95.0% | – | Sensitive to feature scaling |
+| Logistic Regression | 98.5% | 96.1% | Strong, interpretable baseline |
+| Decision Tree | 96.5% | 96.4% | Transparent but prone to overfitting |
+| k-Nearest Neighbours | 95.0% | 96.3% | Sensitive to feature scaling |
 
 ---
 
