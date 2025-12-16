@@ -227,7 +227,7 @@ These considerations are critical to ensuring that predictive analytics tools ca
 The full implementation is available as an executable Google Colab notebook, allowing users to run the project without local setup.
 
 **Google Colab link:**  
-`<INSERT YOUR GOOGLE COLAB LINK HERE>`
+https://colab.research.google.com/drive/1CbTZWrcO75L-I_5Qc1qBw5845pTTBhkI?usp=sharing
 
 ---
 
@@ -236,7 +236,7 @@ The full implementation is available as an executable Google Colab notebook, all
 A complete downloadable version of the project, including the notebook, dissertation report, and generated results, is available via Google Drive.
 
 **Google Drive link:**  
-`<INSERT YOUR GOOGLE DRIVE LINK HERE>`
+(https://drive.google.com/file/d/1rlo1Jr_Lok9qiHrga1UgBn1GCpSjNhe0/view?usp=sharing)
 
 ## Acknowledgements
 
